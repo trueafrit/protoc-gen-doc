@@ -16,7 +16,7 @@ ADD dist/protoc-gen-doc /usr/local/bin/
 ADD script/entrypoint.sh ./
 ADD run.sh ./
 
-VOLUME ["/out", "/protos"]
+#VOLUME ["/out", "/protos"]
 
 #ENTRYPOINT ["/entrypoint.sh"]
 #CMD ["--doc_opt=html,index.html"]
